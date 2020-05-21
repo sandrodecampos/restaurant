@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Navbar */
+.navbar-wrapper {
+    height: 150px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+/* Navbar Left column */
+
+.navbar-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-wrapper > .left-column > .contact-hours {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.navbar-wrapper > .left-column > .contact-hours > .hours {
+    color: #858585;
+    font-size: 0.8em;
+}
+
+.navbar-wrapper > .left-column > .icon {
+    margin-right: 15px;
+}
+
+.navbar-wrapper > .left-column > .icon i {
+    font-size: 2em;
+    color: #cbcbcb;
+}
+
+.navbar-wrapper > .left-column > .contact-hours > .hours {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 0.7em;
+    color: #747474;
+}
+
+/* Navbar Center column  */
+.navbar-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.navbar-wrapper > .center-column > .nav-links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.navbar-wrapper > .center-column > .nav-links-wrapper > .nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-wrapper > .center-column > .nav-links-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+.navbar-wrapper > .center-column > .nav-links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-wrapper > .center-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-wrapper > .center-column > .banner-image img {
+    width: 200px;
+    height: auto;
+}
+
+/* Navbar Right column */
+.navbar-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-wrapper > .right-column > .address-wrapper {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+}
+
+.navbar-wrapper > .right-column > .address-wrapper a{
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.navbar-wrapper > .right-column > .contact-icon {
+    margin-left: 15px;
+}
+
+.navbar-wrapper > .right-column > .contact-icon i {
+    font-size: 2em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.navbar-wrapper > .right-column > .contact-icon i:hover, 
+.navbar-wrapper > .right-column > .address-wrapper a:hover {
+    color: #cea135
+}
+
