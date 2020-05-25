@@ -125,3 +125,28 @@ h1, h2, h3, h4, h5, h6 {
     color: #cea135
 }
 
+/* Hero Section */
+.hero-section {
+    padding: 100px;
+    height: 300px;
+    background: url(../images/fries-hero-bg.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;    
+}
+
+.hero-section > .top-heading {
+    padding: 1px 20px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    width: 290px;
+    border-radius: 2px;
+}
+
+.hero-section > .bottom-heading {
+    background-color: #cea135;
+    color: #11122b;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 107px;
+    border-radius: 2px;
+}
